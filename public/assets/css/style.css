@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+.style-btn {
+    background-color:#48CAB2; 
+    border:none;
+}
+
+.style-btn:hover {
+    background-color: black;
+}
+
+.style-price {
+    color:#48CAB2;
+}
+
+.style-cart {
+    float:left; 
+    margin-right: 20px;
+}
+
+.style-add-to-cart {
+    float:left; 
+    color:white;
+}
+
+.style-container {
+    padding-top: 100px;
+}

@@ -64,7 +64,8 @@ class PaymentController extends Controller
 
                 $payment->save();
 
-                return "Payment is Successfull. Your Transaction Id is : " . $arr['id'];
+                $request->session()->flash('success', 'Payment is Successful. Your Transaction ID is : ' . $arr['id']);
+                return redirect('/');
 
             }
             else{
